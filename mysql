@@ -1,0 +1,2 @@
+SELECT * FROM bookstore.books;
+SELECT * FROM bookstore.books WHERE release_date >= 2010 AND type = 'new' order by title;
